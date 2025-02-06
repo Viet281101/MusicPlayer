@@ -132,9 +132,6 @@ const Player: React.FC<PlayerProps> = ({ song }) => {
 	useEffect(() => {
 		if (sound) {
 			if (isPlaying) {
-				if (sound.seek() !== currentTime) {
-					sound.seek(currentTime);
-				}
 				sound.play();
 			} else {
 				sound.pause();

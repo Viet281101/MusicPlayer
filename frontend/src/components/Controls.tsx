@@ -48,7 +48,7 @@ const Controls: React.FC = () => {
 	return (
 		<ControlsContainer>
 			<ControlButton onClick={handlePrevious}>⏮ Prev</ControlButton>
-			<ControlButton onClick={handleNext}>⏭ Next</ControlButton>
+			<ControlButton onClick={handleNext}>Next ⏭</ControlButton>
 		</ControlsContainer>
 	);
 };

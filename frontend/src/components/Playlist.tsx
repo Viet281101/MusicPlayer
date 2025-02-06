@@ -92,7 +92,7 @@ const Playlist: React.FC = () => {
 			<ul>
 				{songs.map((song) => (
 					<SongItem key={song.id} $isActive={song.id === currentSongId} onClick={() => handleSelectSong(song.id)}>
-						{song.title} - {song.artist}
+						● {song.title} - {song.artist}
 					</SongItem>
 				))}
 			</ul>

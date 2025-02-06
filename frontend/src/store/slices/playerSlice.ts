@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 interface PlayerState {
 	currentSongId: number | null;
 	isPlaying: boolean;
-}
+};
 
 const initialState: PlayerState = {
 	currentSongId: null,

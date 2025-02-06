@@ -31,7 +31,7 @@ const Home: React.FC = () => {
 
 	return (
 		<HomeContainer>
-			<Title>🎵 Music Player with Redux</Title>
+			<Title>🎵 Music Player</Title>
 
 			<Playlist />
 

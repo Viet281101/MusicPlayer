@@ -6,12 +6,12 @@ interface Song {
 	artist: string;
 	audioSrc: string;
 	cover: string;
-}
+};
 
 interface PlaylistState {
 	songs: Song[];
 	currentSongId: number | null;
-}
+};
 
 const initialState: PlaylistState = {
 	songs: [],
